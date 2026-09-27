@@ -1,0 +1,33 @@
+{
+  "policies": {
+    "base": 0.5700503227471239,
+    "thr0.999": 0.6299839888406826,
+    "thr0.9995": 0.6258085530000576,
+    "thr0.9999": 0.6089000459307359,
+    "cap1": 0.4954031491976421,
+    "cap2": 0.5951903143341336,
+    "cap3": 0.60837776470814,
+    "cap5": 0.5898929716223669,
+    "cap8": 0.5761135412674863,
+    "cap11": 0.5722632544336828,
+    "addr": 0.4468750020228393,
+    "addr+cap3": 0.6682054940479206,
+    "addr+cap5": 0.674043202319728,
+    "addr+cap11": 0.6530659266969175
+  },
+  "n_big": 1568,
+  "n_with_truth": 1489,
+  "avg_truth_size": 3.65625,
+  "max_truth_size": 9,
+  "args": {
+    "data": "../../../student_resource/dataset",
+    "model": "../artifacts/models_pilot_us/lgb_model.txt",
+    "n_per_country": 1500,
+    "max_entities": 1500,
+    "min_cands": 5,
+    "thr": 0.995,
+    "batch": 200000,
+    "seed": 1,
+    "out": "../../../output/eval_trim5.json"
+  }
+}

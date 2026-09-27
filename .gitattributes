@@ -1,0 +1,10 @@
+# Keep line endings predictable: LF everywhere in the working tree.
+* text=auto eol=lf
+
+# The submission is a data file - never let git rewrite its bytes, so a
+# trailing \r can never end up glued to the last matched id on checkout.
+submission/*.tsv -text
+
+# Model and license are byte-exact.
+*.txt -text
+LICENSE -text

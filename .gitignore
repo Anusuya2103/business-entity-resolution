@@ -1,0 +1,33 @@
+# ---- data (re-download from the challenge; never commit) ----
+data/
+dataset/
+student_resource/
+*.tsv
+!submission/matching_results.tsv
+
+# ---- large / regenerable artifacts ----
+*.pkl
+*.npy
+*.parquet
+*.zip
+*.bz2
+*.log
+*.err
+*.out
+_score_parts/
+eda/
+output/
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
